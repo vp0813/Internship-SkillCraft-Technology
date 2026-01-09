@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(216, 214, 214);
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    background-image: linear-gradient(180deg , rgb(117, 30, 30), rgb(223, 158, 38));
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#navbar:hover{
+    background-image: linear-gradient(360deg , rgb(152, 58, 58), rgb(223, 158, 38));
+}
+
+#name{
+    font-size: 28px;
+    padding: 19px;
+    font-family: fantasy;
+    cursor: pointer;
+}
+
+#nav-right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+}
+
+#learning{
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+#apply{
+    font-size: 28px;
+    padding-right: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+#learning:hover,
+#apply:hover{
+    color: rgb(83, 26, 26);
+    text-shadow:
+        0 0 5px rgba(231, 226, 226, 0.6),
+        0 0 10px rgba(231, 226, 226, 0.6),
+        0 0 15px rgba(231, 226, 226, 0.6);
+}
+
+#mid-part1{
+    height: 400px;
+    background-color: beige;
+}
+
+#mid-part2{
+    height: 400px;
+    background-color: rgb(240, 240, 202);
+}
+
+#footer{
+    height: 130px;
+    background-color: #0f2b38;
+}
