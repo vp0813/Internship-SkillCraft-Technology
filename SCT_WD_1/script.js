@@ -22,6 +22,6 @@ if(light1){
 let light2 = document.getElementById("dark");
 if(light2){
     light2.onclick = function(){
-        document.body.style.backgroundColor = "black";
+        document.body.style.backgroundColor = "lightyellow";
     }
 }

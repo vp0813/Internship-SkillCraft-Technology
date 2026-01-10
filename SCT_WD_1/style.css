@@ -122,16 +122,151 @@
 }
 
 #mid-part1:hover::before{
-    transform: scale(1.08);  
+    transform: scale(1.09);  
     filter: brightness(1.05);
 }
 
 #mid-part2{
-    height: 600px;
+    height: 400px;
 }
 
+#motion{
+    height: 60px;
+    background-color: black;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.motion-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: moveText 15s linear infinite;
+}
+
+@keyframes moveText {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.motion-text:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+#link{
+    color: rgb(204, 208, 87);
+}
+
+#link:visited{
+    color: rgb(204, 208, 87);
+}
+
+#boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#box1{
+    height: 200px;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 76px;
+    /* background-color: rgb(240, 239, 239); */
+    background-color: #6e95b3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 6px #213448;
+}
+
+#box1:hover{
+    background-color: #94B4C1;
+}
+
+#box2{
+    height: 200px;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 85px;
+    /* background-color: rgb(240, 239, 239); */
+    background-color: #6e95b3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 6px #213448;
+}
+
+#box2:hover{
+    background-color: #94B4C1;
+}
+
+#box3{
+    height: 200px;
+    width: 300px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 76px;
+    /* background-color: rgb(240, 239, 239); */
+    background-color: #6e95b3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 6px #213448;
+}
+
+#box3:hover{
+    background-color: #94B4C1;
+}
+
+#mid-part3{
+    height: 180px;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+}
+
+#about-name{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+#info1{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+}
+
+#info2{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+}
 
 #footer{
-    height: 250px;
+    height: 50px;
     background-color: #0f2b38;
+    color: white;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#email{
+    cursor: pointer;
+}
+
+#phone{
+    cursor: pointer;
 }
