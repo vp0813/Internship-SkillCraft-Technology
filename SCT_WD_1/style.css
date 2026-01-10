@@ -12,8 +12,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 70px;
-    background-image: linear-gradient(180deg , rgb(117, 30, 30), rgb(223, 158, 38));
+    height: 60px;
+    background-image: linear-gradient(180deg , rgb(134, 67, 134) , rgb(201, 138, 201));
     position: fixed;
     top: 0;
     left: 0;
@@ -22,7 +22,7 @@ body{
 }
 
 #navbar:hover{
-    background-image: linear-gradient(360deg , rgb(152, 58, 58), rgb(223, 158, 38));
+    background-image: linear-gradient(360deg , rgb(155, 75, 155) , rgb(201, 138, 201));
 }
 
 #name{
@@ -65,15 +65,15 @@ body{
 
 #mid-part1{
     height: 400px;
-    background-color: beige;
+    background-color: whitesmoke;
 }
 
 #mid-part2{
     height: 400px;
-    background-color: rgb(240, 240, 202);
+    background-color: whitesmoke;
 }
 
 #footer{
-    height: 130px;
+    height: 250px;
     background-color: #0f2b38;
 }
