@@ -164,6 +164,7 @@
 
 #link{
     color: rgb(204, 208, 87);
+    text-decoration: none;
 }
 
 #link:visited{
